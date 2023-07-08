@@ -1,0 +1,69 @@
+body {
+  background-color: 0;
+}
+
+.nav,
+.container {
+  background-color: #dcb499;
+  padding: 15px;
+}
+
+.menuitem,
+.title,
+.textbox,
+.from,
+.footer {
+  color: #fff;
+  font-size: 15px;
+}
+
+.nav,
+.textbox,
+.form,
+.footer {
+  box-shadow: 0 4px 2px -2px blue;
+}
+
+.textbox,
+.form,
+.footer {
+  background-color: #c0997f;
+}
+
+.title,
+.textbox,
+.form,
+.footer {
+  padding: 15px;
+}
+
+.container,
+.form,
+.footer {
+  margin: 20px 0;
+}
+
+.nav,
+.footer,
+.container {
+  width: 1320px;
+}
+
+.nav {
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menuitem {
+  font-weight: 400;
+  text-shadow: 2px 2px green;
+  width: 100%;
+}
+
+.menuitem:hover {
+  color: #f3f3f3;
+}/*# sourceMappingURL=index.css.map */
